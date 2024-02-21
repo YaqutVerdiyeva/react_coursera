@@ -1,0 +1,93 @@
+* {
+  font-family: "Inter", sans-serif;
+  margin: 2px;
+}
+body {
+  background-color: #23252c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .App {
+    background-color: #1a1b21;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+    .texts {
+      padding: 20px;
+      .info {
+        margin-bottom: 25px;
+        text-align: center;
+        h1 {
+          font-size: 35px;
+          color: #fff;
+        }
+        span {
+          color: #f3bf99;
+        }
+        p {
+          color: #fff;
+          font-weight: 100;
+          font-size: 13px;
+        }
+        .btns {
+          margin-top: 15px;
+          display: flex;
+          justify-content: center;
+          column-gap: 20px;
+          .email {
+            border-radius: 6px;
+            color: #1a1b21;
+            width: 115px;
+            height: 39px;
+            border: none;
+            font-size: 14px;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .linkedin {
+            background-color: #5093e2;
+            border-radius: 6px;
+            color: #fff;
+            width: 115px;
+            height: 39px;
+            border: none;
+            font-size: 14px;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+      .about {
+        color: #fff;
+        margin: 15px 0;
+        p {
+          font-size: 12px;
+          font-weight: 100;
+        }
+      }
+      .interests {
+        margin: 15px 0;
+        color: #fff;
+        p {
+          font-size: 12px;
+          font-weight: 100;
+        }
+      }
+    }
+    .footer {
+      background-color: #161619;
+      padding: 5px 0;
+      width: 100%;
+      text-align: center;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  }
+}

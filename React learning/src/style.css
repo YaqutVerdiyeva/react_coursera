@@ -1,0 +1,53 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+body {
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222222;
+  padding: 0 20px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo h2 {
+  font-weight: 700;
+  color: #00d8ff;
+}
+.navbar h4 {
+  font-weight: 400;
+  color: #fff;
+}
+.main {
+  color: #fff;
+  padding: 40px 20px 91px 20px;
+  height: 67vh;
+  background-image: url("./assets/image/Rectangle11.png");
+  position: relative;
+}
+h1{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+ul{
+    max-width: 380px;
+}
+ul li{
+    font-weight: 100;
+}
+.reactjs-logo {
+  position: absolute;
+  right: 0;
+  top: 20%;
+  height: 70%;
+}
+li::marker{
+    color: #00d8ff;
+    font-size: 24px;
+}
